@@ -1,0 +1,21 @@
+{
+  "name": "week5-project-not-hangman",
+  "version": "1.0.0",
+  "description": "This game is not hangman.  It's Mystery Word!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-validator": "^3.2.0",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.4",
+    "nodemon": "^1.11.0",
+    "parser": "^0.1.4"
+  }
+}
