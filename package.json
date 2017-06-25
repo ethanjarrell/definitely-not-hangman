@@ -4,7 +4,8 @@
   "description": "This game is not hangman.  It's Mystery Word!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app/index.js"
   },
   "author": "",
   "license": "ISC",
