@@ -1,8 +1,8 @@
-// module.exports =
-// unguessedLetters:["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s",]},
+module.exports =
+{unguessedLetters : ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s",]},
 
-// {listOfWords:["apples", "bananas", "strawberries", "mangos", "pineapples", "watermelon"]},
+{listOfWords:["apples", "bananas", "strawberries", "mangos", "pineapples", "watermelon"]},
 
-// guessedLetters = [],
+{guessedLetters : []},
 
-// {currentWord:[]},
+{currentWord:[]}
