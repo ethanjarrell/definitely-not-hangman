@@ -13,23 +13,15 @@
 
     <div class="inputWrapper">
     <form id="input" action="/" method="post">
-    <input  type="text" action "name="letterInput placeholder="GUESS"></input>
+    <input  type="text" maxlength="1" "name="letterInput placeholder="GUESS"></input>
     <div class="inputLabel">select a letter</div>
-    </div>
-
-
-
-   </form>
-
-   <section class="unguessedLetters">
-    {{#unguessedLetters}}
-      {{.}}
-    {{/unguessedLetters}}
+    </form>
+</div>
+    <section class="newWord">
+      {{#newWord}}
+      <div class="newWord">{{letter}}</div>
+      {{/newWord}}
     </section>
-    <section class="listOfWords">
-    {{#listOfWords}}
-      {{.}}
-    {{/listOfWords}}
-    </section>
+
   </body>
 </html>
