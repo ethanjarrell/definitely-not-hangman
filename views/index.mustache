@@ -7,19 +7,25 @@
     <title>Not Hangman</title>
   </head>
   <body>
-    <header>
+    <section class="header">
       Definitely Not Hangman
-    </header>
+    </section>
+    <section class="guesswrapper">
+    <section class="guesses">
+      guesses left:
+    </section>
+    <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span><span class="six"></span><span class="seven"></span><span class="eight"></span>
+    </section>
 
     <div class="inputWrapper">
     <form id="input" action="/" method="post">
-    <input  type="text" maxlength="1" "name="letterInput placeholder="GUESS"></input>
+        <input  type="text" maxlength="1" name="letterInput" placeholder=""></input>
+  </form>
     <div class="inputLabel">select a letter</div>
-    </form>
 </div>
     <section class="newWord">
       {{#newWord}}
-      <div class="newWord">{{letter}}</div>
+      <div name="eachLetter" class="newWord">{{letter}}</div>
       {{/newWord}}
     </section>
 
